@@ -2,6 +2,7 @@
 
 body {
   font-family: "Lato", sans-serif;
+  display: grid;
 }
 
 h2 {
@@ -60,7 +61,7 @@ header {
 
 .logo {
   font-family: "Pangolin", cursive;
-  font-size: 72px;
+  font-size: 60px;
   color: #fff;
 }
 
@@ -109,7 +110,7 @@ form label {
 form select,
 form input {
   margin-bottom: 20px;
-  width: 180px;
+  width: 200px;
 }
 
 form button {
@@ -179,4 +180,40 @@ footer p {
   form select, form input {
     margin-bottom: 0px;
   }
+  @media only screen and (min-width: 320px) {
+    body {
+        border: 3px;
+    }
+    }
+  
+    @media only screen and (min-width: 480px) {
+    body {
+        border: 3px;
+    }
+    }
+    
+    @media only screen and (min-width: 640px) {
+    body {
+        border: 3px;
+    }
+    }
+   
+    @media only screen and (min-width: 768px) {
+    body {
+        border: 3px;
+    }
+    }
+    
+    @media only screen and (min-width: 1024px) {
+    body {
+        border: 3px;
+    }
+    }
+ 
+    @media only screen and (min-width: 1600px) {
+    body {
+        border: 3px;
+      }
+    }
 }
+
